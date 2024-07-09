@@ -7,3 +7,4 @@ hs_err_pid*
 /src/sbt-test/sbt-hello/test1/Project/project/target/
 /src/sbt-test/sbt-hello/test1/Project/project/
 /src/sbt-test/sbt-hello/test1/.bsp/
+/src/sbt-test/sbt-hello/test1/target/
