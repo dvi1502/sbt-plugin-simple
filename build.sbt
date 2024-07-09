@@ -4,7 +4,6 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / organization := "ru.dvi"
 
 val ivyLocal = Resolver.file("local", file(Path.userHome.absolutePath + "/.ivy2/local"))(Resolver.ivyStylePatterns)
-//externalResolvers := Seq(ivyLocal)
 
 lazy val root = (project in file("."))
   .enablePlugins(SbtPlugin)
